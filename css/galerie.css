@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  margin:  auto;
+  background: linear-gradient(#FFC286, #FFFFFF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: auto;
+  font-family: quicksand;
+}
+
+.block1
+{
+    padding: 30px;
+    background-color: #ce9779;
+    width: 1028px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    border-radius: 32px;
+}
+
+
+h1 
+{
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: quicksand;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+#header
+{
+    background-color: #9E6E6F;
+    width: 100%;
+    height: 278px;
+    display: flex;
+    margin: auto;
+}
+
+.logoheader
+{
+    width: 220px;
+    margin-left: 39px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.accueil
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+.menu
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+.galerie
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+.team
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+    margin-right: 220px;
+}
+
+button:hover {color: #b5b5b5;}
+
+.lang
+{
+    display: flex;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    background: none;
+    right: 51px;
+    width: 60px;
+    height: 60px;
+    margin-right: 51px;
+    margin-top: 89px;
+    align-items: center;
+    position: absolute;
+}
+
+.lang img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+.lang img.hover {
+  opacity: 0;
+}
+
+.lang:hover img.hover {
+  opacity: 1;
+}
+
+.lang:hover img.normal {
+  opacity: 0;
+}
+
+
+/* Partie footer */
+
+#footer
+{
+    background-color: #9E6E6F;
+    width: 100%;
+    height: 278px;
+    display: flex;
+}
+
+.logoheader
+{
+    width: 220px;
+    margin-left: 39px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.service
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+.fb
+{
+  border: none;
+  background: none;
+  display: flex;
+  text-align: center;
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 20px;
+  margin: auto;
+  transition: 0.4s;
+}
+
+.insta
+{
+  border: none;
+  background: none;
+  display: flex;
+  text-align: center;
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: auto;
+  transition: 0.4s;
+  margin: auto;
+}
+
+
+
+.block2 {
+  background-color: #ce9779;
+  border-radius: 32px;
+  width: 1212px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;         /* espace vertical entre les groupes */
+  padding: 20px;
+  margin-bottom: 190px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;         /* espace horizontal entre les images */
+  flex-wrap: wrap;   /* pour s’adapter si l’écran est plus étroit */
+}
+
+.block2 img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 16px;
+  height: auto;
+}
+
+.img3 {
+  max-width: 1143px;  /* l’image centrale est plus grande */
+}

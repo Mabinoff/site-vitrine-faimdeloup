@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background: linear-gradient(#FFC286, #FFFFFF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  font-family: quicksand;
+  display: flex;
+}
+
+
+.error404
+{
+  border-radius: 32px;
+  background-color: #CE9779;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  width: 1024px;
+  height: 1024px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+h1 
+{
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  font-family: quicksand;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.retour
+{
+  border: none;
+  background: none;
+  text-align: center;
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+.imgbutton
+{
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.error
+{
+  width: 320px;
+  height: auto;
+  justify-content: center;
+  align-self: center;
+  margin-top: 50px;
+}
+
+
+
+/* Partie Header */
+
+#header
+{
+    background-color: #9E6E6F;
+    width: 100%;
+    height: 278px;
+    display: flex;
+}
+
+.logoheader
+{
+    width: 220px;
+    margin-left: 39px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.accueil
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+.menu
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+.galerie
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+.team
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+    margin-right: 220px;
+}
+
+.team:hover {color: #b5b5b5;}
+.accueil:hover {color: #b5b5b5;}
+.menu:hover {color: #b5b5b5;}
+.lang:hover {color: #b5b5b5;}
+.service:hover {color: #b5b5b5;}
+
+.lang
+{
+    display: flex;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    background: none;
+    right: 51px;
+    width: 60px;
+    height: 60px;
+    margin-right: 51px;
+    margin-top: 89px;
+    align-items: center;
+    position: absolute;
+}
+
+.lang img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lang img.hover {
+  opacity: 0;
+}
+
+.lang:hover img.hover {
+  opacity: 1;
+}
+
+.lang:hover img.normal {
+  opacity: 0;
+}
+
+
+
+/* Partie footer */
+
+#footer
+{
+    background-color: #9E6E6F;
+    width: 100%;
+    height: 278px;
+    display: flex;
+}
+
+.logoheader
+{
+    width: 220px;
+    margin-left: 39px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.service
+{
+    display: flex;
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    background-color: #9E6E6F;
+    border: #9E6E6F;
+    transition: 0.4s;
+}
+
+
+
+button:hover {color: #b5b5b5;}
+
+.fb
+{
+  border: none;
+  background: none;
+  display: flex;
+  text-align: center;
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 20px;
+  margin: auto;
+  transition: 0.4s;
+}
+
+.insta
+{
+  border: none;
+  background: none;
+  display: flex;
+  text-align: center;
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: auto;
+  transition: 0.4s;
+  margin: auto;
+}

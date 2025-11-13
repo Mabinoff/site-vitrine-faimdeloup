@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../css/accueil.css" />
+    <link rel="stylesheet" href="../../leaflet/dist/leaflet.css" />
+    <title>Accueil - Faim de Loup</title>
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon"> 
+
+</head>
+    <body>
+
+        <div id="header">
+            <img class="logoheader" src="../../images/header_footer/logo.png" alt="Logo de Faim de Loup" />
+            <button class="accueil" onclick="window.location.href = 'index.html';">Accueil</button>
+            <button class="menu" onclick="window.location.href = 'menu.html';">Menu</button>
+            <button class="galerie" onclick="window.location.href = 'gallerie.html';">Galerie</button>
+            <button class="team" onclick="window.location.href = 'team.html';">Équipe</button>
+            <button class="lang" onclick="window.location.href = '../en/index_en.html';">
+                <img src="../../images/header_footer/langfr.png" class="normal" alt="logo français">
+                <img src="../../images/header_footer/langfr_hover.png" class="hover" alt="logo langue français au survol">
+            </button>
+        </div>
+
+        <div id="title">
+            <p class="title">Venez découvrir Faim de Loup, le restaurant de notre meute ! Dégustez des snacks savoureux qui réveilleront les papilles de tous les loups gourmands.</p>
+            <img class="titleimg" src="../../images/restaurant/restau1.jpg" alt="Facade du Restaurant Faim de Loup"/>
+        </div>
+
+        <div class="h2">
+            <h2>Présentation de l’équipe</h2>
+        </div>
+        <div id="img">
+            <img src="../../images/teams/equipe.png" alt="Image de l'équipe"/>
+        </div>
+
+        <div id="button">
+            <button class="teambody" onclick="window.location.href = 'team.html';">Équipe</button>
+        </div>
+
+        <div class="h2">
+            <h2>Carte</h2>
+        </div>
+
+        <div id="map">
+            <script src="../../leaflet/dist/leaflet.js"></script>
+        </div>
+
+        <div class="h2">
+            <h2>Plats Disponible</h2>
+        </div>
+        
+        <div id="plats">
+            <div id="plats1">
+                <div class="plats11">
+                    <img class="imgplats" src="../../images/menu_plats/wrap.jpg" alt="Wrap"/>
+                    <h3>Wrap Cesar</h3>
+                    <p class="descplat">Ingrédients : Wrap - Sauce cesar - Poulet - Copeaux Parmesan - Oignons Frits - Salade</p>
+                    <p class="priceplat">4.95€</p>
+                </div>
+            </div>
+
+            <div id="plats2">
+                <div class="plats21">
+                    <img class="imgplats" src="../../images/menu_plats/salade.jpg" alt="Salade Carpaccio"/>
+                    <h3>Salade Carpaccio</h3>
+                    <p class="descplat">Ingrédients : Salade - Tomate Cerise - Parmesan - Boeuf Carpaccio - Pesto</p>
+                    <p class="priceplat">7.95€</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="h2">
+            <h2>Horaire</h2>
+        </div>
+
+        <div class="horaire">
+            <h2 class="heure">Lundi : 07h - 15h00</h2>
+            <h2 class="heure">Mardi : 07h - 15h00</h2>
+            <h2 class="heure">Mercredi : 07h - 15h00</h2>
+            <h2 class="heure">Jeudi : 07h - 15h00</h2>
+            <h2 class="heure">Vendredi : 07h - 15h00</h2>
+            <h2 class="heure">Samedi : Fermé</h2>
+            <h2 class="heure">Dimanche : Fermé</h2>
+        </div>
+
+
+
+        <div id="footer">
+            <img class="logoheader" src="../../images/Header_footer/logo.png" alt="Logo de Faim de Loup" />
+            <button class="service" onclick="window.location.href = 'service_et_info.html' ;">Service et Information</button>
+            <a class="fb" href="https://www.facebook.com/Faim-De-Loup-111641638080415">
+                <img src="../../images/svg/facebook-logo.svg"alt="logo facebook">
+            </a>
+            <a class="insta" href='www.instagram.com/faimdeloup_vaise/'>
+                <img src="../../images/svg/instagram-logo.svg"alt="logo instagram">
+            </a>
+        </div>
+    </body>
+</html>
